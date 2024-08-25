@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  background-color: #8d7b68;
+  height: 100px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  padding-top: 30px;
+  padding-right: 80px;
+}
+
+nav ul li {
+  display: inline; /* buraya tekrar dönüp bakıcamn*/
+}
+ul li a {
+  color: white;
+  font-size: 30px;
+  padding: 25px;
+}
+
+.navbar ul li a:hover {
+  background-color: #c8b6a6;
+}
+
+.c1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 35px;
+  padding-left: 340px;
+  position: relative;
+}
+
+.c1 img {
+  border: 2px solid gainsboro;
+  display: block;
+}
+
+main {
+  background-color: #8d7b68;
+}
+
+h1 {
+  display: flex;
+  justify-content: center; /* Yatay olarak ortalar */
+  align-items: center; /* Dikey olarak ortalar */
+  height: 200px; /* Kutunun yüksekliğini belirler */
+  border: 1px solid black; /* Sınır ekler */
+  font-size: 120px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+  position: absolute;
+  left: 170px; /* Soldan 20px boşluk bırakır */
+  top: 70%; /* Yukarıdan aşağıya %70 mesafeye yerleştirir */
+  background-color: #d9ccc0;
+  padding: 10px; /* İçeriği saracak boşluk ekler */
+}
+
+.c2 img {
+  display: flex;
+  justify-content: center; /* Yatay olarak ortalar */
+  align-items: center; /* Dikey olarak ortalar */
+  top: 10px;
+  position: absolute;
+  height: 200px;
+  clip-path: circle(50% at 50% 50%);
+
+  left: 100px;
+}
+.c2 {
+  bottom: 914px;
+  position: relative;
+  height: 450px;
+  width: 400px;
+  border: 2px solid white;
+  left: 20px;
+}
+
+.c3 {
+  color: white;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  top: 150px;
+
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-size: 20px;
+}
+
+strong {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+body {
+  background-color: #8d7b68;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Blokları dikeyde hizalar */
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Yazıyı ortalamak için */
+  margin-top: 100px;
+}
+
+.c4 {
+  border: 1px solid white;
+  height: 500px;
+  width: 700px;
+}
+.c4 img {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.c5 {
+  color: white;
+  font-size: 20px;
+}
+
+.u7 {
+  padding: 25px;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.c7 {
+  height: 500px;
+  width: 700px;
+  margin-bottom: 25px;
+}
+
+.c7 img {
+  clip-path: polygon(
+    10% 25%,
+    35% 25%,
+    35% 0%,
+    65% 0%,
+    65% 25%,
+    90% 25%,
+    90% 50%,
+    65% 50%,
+    65% 100%,
+    35% 100%,
+    35% 50%,
+    10% 50%
+  );
+}
+
+.hover-effect {
+  transition: transform 0.3s ease, filter 0.3s ease; /* Geçiş efektleri ekler */
+}
+
+.hover-effect:hover {
+  transform: scale(1.1); /* Resmi %10 büyütür */
+}
+
+article {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 0px 0px 4px black;
+}
+
+.baslık {
+  color: #fff;
+  font-size: 50px;
+  text-shadow: 0px 0px 4px black;
+  margin-top: 25px;
+}
+
+.a1 {
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-shadow: 0px 0px 4px black;
+}
+
+.k2 {
+  background-color: #c8b6a6;
+}
+
+footer {
+  text-align: center;
+  height: 70px;
+  background-color: #8d7b68;
+  color: rgb(168, 160, 160);
+  margin-top: 25px;
+}
+
+.x1 {
+  padding: 25px;
+}
